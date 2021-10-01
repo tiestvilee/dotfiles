@@ -4,16 +4,16 @@ set -e
 rm -rf .dotfiles
 rm -rf dotfiles-master
 
-curl -L https://github.com/daviddenton/dotfiles/archive/master.zip -o master.zip
+curl -L https://github.com/tiestvilee/dotfiles/archive/master.zip -o master.zip
 unzip master.zip 
 rm -rf master.zip
 ./dotfiles-master/brew/setup.sh
 rm -rf dotfiles-master
 
-git clone https://github.com/daviddenton/dotfiles.git .dotfiles
+git clone https://github.com/tiestvilee/dotfiles.git .dotfiles
 pushd .dotfiles
 git remote rm origin
-git remote add origin git@github.com:daviddenton/dotfiles.git
+git remote add origin git@github.com:tiestvilee/dotfiles.git
 popd
 
 .dotfiles/git/setup.sh
