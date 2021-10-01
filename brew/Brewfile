@@ -27,12 +27,14 @@ brew "pinentry-mac"
 brew "powerlevel9k"
 brew "wrk"
 brew "zsh"
+brew "git"
 
 #misc
 brew "libtool"
 brew "graphviz"
 
 # languages
+brew "openjdk"
 brew "jenv"
 brew "golang"
 brew "nvm"
@@ -71,6 +73,9 @@ cask "tunnelblick"
 cask "tuple"
 cask "vlc"
 cask "zoomus"
+cask "1password"
+cask "firefox"
+cask "intellij-idea"
 
 # containers
 cask "docker"
