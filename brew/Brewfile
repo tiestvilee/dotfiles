@@ -34,7 +34,6 @@ brew "libtool"
 brew "graphviz"
 
 # languages
-brew "temurin"
 brew "jenv"
 brew "golang"
 brew "nvm"
@@ -81,5 +80,6 @@ cask "intellij-idea"
 cask "docker"
 
 # languages
+cask "temurin"
 # cask "adoptopenjdk11"
 # cask "yourkit-java-profiler"
