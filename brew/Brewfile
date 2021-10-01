@@ -34,7 +34,7 @@ brew "libtool"
 brew "graphviz"
 
 # languages
-brew "openjdk"
+brew "temurin"
 brew "jenv"
 brew "golang"
 brew "nvm"
