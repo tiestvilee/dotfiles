@@ -17,6 +17,9 @@ git remote rm origin
 git remote add origin git@github.com:tiestvilee/dotfiles.git
 popd
 
+echo "----- ssh ----- "
+.dotfiles/ssh/setup.sh
+
 echo "----- git ----- "
 .dotfiles/git/setup.sh
 
